@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const MessageEmbed = require("discord.js");
 const Attachment = require("discord.js");
+const config = require("./config.json");
 const client = new Discord.Client()
 const Catpcha = require("@haileybot/captcha-generator");
 
@@ -38,6 +39,7 @@ client.on("guildMemberAdd", (member, message) => {
         const verified_role_id = require("./config.json")
         let verifiedRole = message.guild.roles.cache.find(r => r.id === verified_role_id)
         member.roles.add(verifiedRole)
+      }
     });
   });
 });
