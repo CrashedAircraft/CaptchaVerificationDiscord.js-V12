@@ -4,6 +4,12 @@ A discord.js welcome and verification bot project which requires new user to ver
 For repl.it, copy the project link and then import it and as usual copy the web output link , paste it on UptimeRobot.
 
 Packages used for this project :
+
 Captcha = @haileybot/captcha-generator
 Discord.js v12 = discord.js
 Express = express
+
+NOTE :
+
+Change your discord.js version by opening package.json (after running npm install) and find discord.js and then change it to 12.5.0
+![image](https://user-images.githubusercontent.com/80314385/152342365-9f4e450c-e415-4f7d-a328-d620dd62feb5.png)
