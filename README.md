@@ -1,7 +1,7 @@
 # CaptchaVerificationDiscord.js-V12
-A discord.js welcome and verification bot project which requires new user to verify themself by captcha.
+A discord.js welcome and verification bot which requires new user to verify themself by captcha.
 
-For repl.it, copy the project link and then import it and as usual copy the web output link , paste it on UptimeRobot.
+For repl.it, copy the repository link and then import it and as usual copy the web output link , paste it on UptimeRobot.
 
 Steps :
 
@@ -9,7 +9,7 @@ Steps :
 2. Put bot token on ENV, name the secret as "token" and put your bot token as secret value.
 3. And just run the project!
 
-Packages used for this project :
+Packages used for this :
 
 Captcha = @haileybot/captcha-generator
 Discord.js v12 = discord.js
