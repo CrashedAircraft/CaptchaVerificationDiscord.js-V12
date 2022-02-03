@@ -3,6 +3,12 @@ A discord.js welcome and verification bot project which requires new user to ver
 
 For repl.it, copy the project link and then import it and as usual copy the web output link , paste it on UptimeRobot.
 
+Steps :
+
+1. Configure welcome channel and member role ID in config.json file.
+2. Put bot token on ENV, name the secret as "token" and put your bot token as secret value.
+3. And just run the project!
+
 Packages used for this project :
 
 Captcha = @haileybot/captcha-generator
